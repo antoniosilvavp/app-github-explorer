@@ -36,6 +36,7 @@
       }
     ],
     "prettier/prettier": "error",
+    "camelcase": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -46,6 +47,13 @@
     ],
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
